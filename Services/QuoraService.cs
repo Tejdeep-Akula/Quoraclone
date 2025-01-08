@@ -8,6 +8,7 @@ using QuoraClone.Entities;
 namespace QuoraClone.Services
 
 {
+	//This is my service
     public class QuoraService:IService
 	{
 		private readonly IRepo repo;
