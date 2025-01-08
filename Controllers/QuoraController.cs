@@ -4,7 +4,6 @@ using QuoraClone.Services;
 using QuoraClone.Interfaces;
 using QuoraClone.Repositories;
 using QuoraClone.Models;
-//This is my API
 namespace QuoraClone.Controllers
 {
 	[Route("api/Quora")]
