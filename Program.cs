@@ -60,5 +60,5 @@ app.UseAuthorization();
 app.UseMiddleware<ApiKeyMiddleware>();
 
 app.MapControllers();
+
 app.Run();
-//want to check for merge conflict;
