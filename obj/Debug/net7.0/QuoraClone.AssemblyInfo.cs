@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuoraClone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5322ef18d7c1117d38843098dca95987ba37d72b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1976ff6e6cc542bfb2886f691a96f36c81a1caaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuoraClone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuoraClone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
