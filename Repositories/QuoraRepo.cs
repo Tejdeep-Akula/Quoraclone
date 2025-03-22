@@ -31,6 +31,7 @@ namespace QuoraClone.Repositories
             }
 			catch (Exception ex)
 			{
+                Console.WriteLine(MySqlDb.ConnectionString);
 				throw ex;
 			}
 		}
