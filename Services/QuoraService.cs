@@ -13,12 +13,12 @@ namespace QuoraClone.Services
 	{
 		private readonly IRepo repo;
 		private readonly SQLDB Mysqldb;
-		private readonly MyquoraDbContext myquoraDbContext;
+		private readonly QuoraDbContext myquoraDbContext;
 		public QuoraService(IRepo repo,IOptions<SQLDB>options)
 		{
 			this.repo = repo;
 			Mysqldb = options.Value;
-			myquoraDbContext = new MyquoraDbContext(Mysqldb.ConnectionString);
+			myquoraDbContext = new QuoraDbContext(Mysqldb.ConnectionString);
 		}
 		/// <summary>
 		/// creates a Topic

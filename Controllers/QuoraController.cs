@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using QuoraClone.Services;
+//using QuoraClone.Services;
 using QuoraClone.Interfaces;
-using QuoraClone.Repositories;
+//using QuoraClone.Repositories;
 using QuoraClone.Models;
 namespace QuoraClone.Controllers
 //This is my api

@@ -10,11 +10,11 @@ namespace QuoraClone.Repositories
 	public class QuoraRepo : IRepo 
 	{
         private readonly SQLDB MySqlDb;
-		private readonly MyquoraDbContext myquoraDbContext;
+		private readonly QuoraDbContext myquoraDbContext;
         public QuoraRepo(IOptions<SQLDB> options)
 		{
 			MySqlDb = options.Value;
-            myquoraDbContext = new MyquoraDbContext(MySqlDb.ConnectionString);
+            myquoraDbContext = new QuoraDbContext(MySqlDb.ConnectionString);
         }
 		/// <summary>
 		/// Posts a Topic in DataBase
