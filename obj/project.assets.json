@@ -3683,11 +3683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tejdeepakula/Projects/QuoraClone/QuoraClone/QuoraClone.csproj",
+      "projectUniqueName": "/Users/tejdeepakula/Projects/Quoraclone/QuoraClone.csproj",
       "projectName": "QuoraClone",
-      "projectPath": "/Users/tejdeepakula/Projects/QuoraClone/QuoraClone/QuoraClone.csproj",
+      "projectPath": "/Users/tejdeepakula/Projects/Quoraclone/QuoraClone.csproj",
       "packagesPath": "/Users/tejdeepakula/.nuget/packages/",
-      "outputPath": "/Users/tejdeepakula/Projects/QuoraClone/QuoraClone/obj/",
+      "outputPath": "/Users/tejdeepakula/Projects/Quoraclone/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tejdeepakula/.nuget/NuGet/NuGet.Config"
@@ -3761,6 +3761,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3769,7 +3783,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.417/RuntimeIdentifierGraph.json"
       }
     }
   }
