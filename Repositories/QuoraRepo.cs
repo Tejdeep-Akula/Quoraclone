@@ -6,8 +6,6 @@ using QuoraClone.Entities;
 
 namespace QuoraClone.Repositories
 {
-    //Hi tejdeep
-    //hi vineesha sabbavarapu
 
 	public class QuoraRepo : IRepo 
 	{
