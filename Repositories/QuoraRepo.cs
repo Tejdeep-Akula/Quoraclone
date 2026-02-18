@@ -6,7 +6,7 @@ using QuoraClone.Entities;
 
 namespace QuoraClone.Repositories
 {
-    //This is QuoraRepo class which implements IRepo interface and contains all the methods to perform CRUD operations on Topic, Question and Answer tables in DataBase
+
 	public class QuoraRepo : IRepo 
 	{
         private readonly SQLDB MySqlDb;
